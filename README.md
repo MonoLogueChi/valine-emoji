@@ -13,7 +13,7 @@
 然后在 valine 配置表情
 
 ```js
-...
+//省略其他配置
 
   emojiCDN = " ";    //注意这里是空格
   emojiMaps = Emotion.Emoji(["热词系列","冷兔","那兔"]);  //选择需要的表情包，表情包名称可以参考 index.js 和 http://www.antmoe.ml
@@ -25,7 +25,7 @@
 
 ```js
 new valine(
-  ...
+  //省略其他配置
   emojiCDN = " ";    //注意这里是空格
   emojiMaps = {
     "表情1" : "地址",
